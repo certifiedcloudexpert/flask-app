@@ -1,0 +1,9 @@
+# Ignore .DS_Store (MacOS specific file)
+.DS_Store
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
