@@ -1,20 +1,16 @@
-# macOS system files
+# Ignore .DS_Store files
 .DS_Store
 
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-
-# Virtual environment folders
+# Ignore virtual environment
 venv/
-env/
 
-# IDE or editor specific files (VS Code, JetBrains, etc.)
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific files
 .vscode/
 .idea/
-
-# Logs and temporary files
-*.log
-*.tmp
 
